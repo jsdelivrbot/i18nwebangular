@@ -1,0 +1,13 @@
+.caption {
+     padding: 10px; 
+     background-color: rgb(138, 223, 226); 
+     transition: transform .9s; Animation 
+     width: 350px; 
+     height:190px; 
+     margin: 1 auto; 
+   } 
+  /* .caption:hover { */
+    /* transform: scale(1.20); (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    /* background-color: rgba(195, 230, 236, 0.856); */
+/* } */
+

@@ -1,0 +1,95 @@
+<div class="navbar navbar-default topnav navbar-fixed-top" role="navigation" >
+
+    <div class="container-fluid">
+        <!--img src="brinova1.png" width="100 %" height="80" align="navbar-fixed-top"-->
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+        <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--a class="navbar-brand" href="Brinovo.html"--><!--h3 style="font-family:Microsoft Sans Serif"><strong style="color:red">Brilliant Innovation Labs</strong></h3> -->
+          <a href="">
+             <img src="assets/images/i18nlogo.png" width=60%  height=40% align="navbar-fixed-top">
+             
+          </a>
+            
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right "  id="navBarID"> 
+                         
+             <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" ><h5 class="hover"><span style=color:rgb(35,37,58)>COURSES</span> <span class="caret"></span></h5></a>
+              <ul class="dropdown-menu "  role="menu">                          
+                <li class="nav-item"><a  class="nav-link" routerLink="/software-development-service" routerLinkActive="active">Java  </a></li>
+                <li class="nav-item"><a  routerLink="/esi" routerLinkActive="active">Spring </a></li>
+                <li class="nav-item"><a  class="nav-link" routerLink="/bpasi" routerLinkActive="active">Python- Data Science & Analytics  </a></li>
+                <li class="nav-item"><a  class="nav-link" routerLink="/bi" routerLinkActive="active">Busineess Intelligence- Tableau   </a></li>
+                <li class="nav-item"><a  class="nav-link" routerLink="/dev" routerLinkActive="active">Full Stack Web Development   </a></li>
+                <li class="nav-item"><a  class="nav-link" routerLink="/data" routerLinkActive="active">Web Scraping- BeautifulSoup  </a></li>
+                
+               
+              </ul>
+            </li>
+
+            <li ><a routerLink="/industry" routerLinkActive="active"> <h5 class="hover"><span style=color:rgb(35,37,58) > CORPORATE</span> </h5></a></li>  
+            
+
+            <li>
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><h5 class="hover"><span style=color:rgb(35,37,58)>ABOUT US</span> <span class="caret"></span></h5></a>
+              <ul class="dropdown-menu" role="menu">                          
+                <li><a routerLink="/company" routerLinkActive="active">Company</a></li>                
+                <li><a routerLink="/vision" routerLinkActive="active"> Vision</a></li>
+                
+              </ul>
+            </li> 
+            
+            <li ><a  routerLink="/get-in-touch" routerLinkActive="active" ><h5 class="hover"><span style=color:rgb(35,37,58)>CONTACT</span></h5></a></li>                      
+          </ul> <!-- .nav .navbar-nav -->        
+        </div><!-- /.navbar-collapse -->
+        
+    </div><!-- /.container-fluid -->
+</div>
+<router-outlet></router-outlet>
+
+<footer class="footer-distributed">
+
+  <div class="footer-right">
+
+    
+
+    <a href=""><svg class="icon" id="twitter-icon" viewBox="0 0 512 512"><path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"/></svg></a>
+    <a href="https://www.facebook.com/sathish.paramasivam.98"><svg class="icon" id="facebook-icon" viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"/></svg></a> 
+    <a href="https://www.linkedin.com/in/sathishkumar-paramasivam-67628035/"><svg class="icon" id="linkedin-icon" viewBox="0 0 512 512"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"/></svg></a>
+    <a href="https://www.youtube.com/channel/UCFzaYF8EQfaUUie1fnz8ojQ"><svg class="icon" id="youtube-icon" viewBox="0 0 512 512"><path d="M21.714 3.054v8.911h-1.625v-0.982q-0.946 1.107-1.839 1.107-0.821 0-1.054-0.661-0.143-0.429-0.143-1.339v-7.036h1.625v6.554q0 0.589 0.018 0.625 0.054 0.393 0.375 0.393 0.482 0 1.018-0.768v-6.804h1.625z"/></svg></a>
+
+  </div>
+
+  
+
+  <div class="footer-left">
+
+    <p class="footer-links">
+      <a class="link-1" href="#">Home</a>
+
+      <a href="#">Courses</a>
+
+      <a href="#">Corporate</a>
+
+      <a href="#">About Us</a>
+      
+      <a href="#">Contact</a>
+    </p>
+
+    <p>i18n Solutions &copy; 2015</p>
+  </div>
+  
+  
+</footer>
+
+  

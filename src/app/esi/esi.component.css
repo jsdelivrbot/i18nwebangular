@@ -1,0 +1,21 @@
+.grad{
+
+    height: 200px;
+    background: red; 
+    background: linear-gradient(rgb(81, 163, 5), rgb(29, 197, 209)); 
+    color:white;
+}
+
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+  }
+  .panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+  }
+  
